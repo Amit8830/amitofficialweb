@@ -135,49 +135,49 @@
         "title": "Youtube Clone",
         "category": "Youtube Clone Using ReactJs",
         "image": "yt.png",
-        "url": "https://www.youtube.com/watch?v=ZVznzY7EjuY"
+        "url": "https://gracious-ride-6c07f0.netlify.app/"
       },
       {
         "title": "Zoom Clone",
         "category": "Zoom Clone Using React,Node, Express",
         "image": "zoom.png",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+        "url": "https://infinite-lowlands-91511.herokuapp.com/21517ebc-7bf3-4e35-b64d-50238914cd7e"
       },
       {
         "title": "Blog Website",
         "category": "Blog Website using ReactJS",
         "image": "responsive.png",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+        "url": "https://amit8830.github.io/blogwebsite/"
       },
       {
         "title": "Quiz App",
         "category": "Quiz App Using React Js",
         "image": "quiz.png",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+        "url": "https://quizwithamit.netlify.app/"
       },
       {
         "title": "Google Keep Clone",
         "category": "Goog Keep using React Js",
         "image": "googlekeep.png",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+        "url": "https://xenodochial-kare-e91408.netlify.app/"
       },
       {
         "title": "MI Store",
         "category": "Mi Store Clone using React Js",
         "image": "mi.png",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+        "url": "https://keen-ride-70ed1b.netlify.app/"
       },
       {
         "title": "Calculator",
         "category": "Calci using React Js",
         "image": "calci.png",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+        "url": "https://amit-calcii.netlify.app/"
       },
       {
         "title": "Cake Shop",
         "category": "Cake Shop using React Js",
         "image": "cake.png",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+        "url": "https://bakeologycakes.netlify.app/"
       }
     ]
   },

@@ -1,0 +1,196 @@
+{
+  "main": {
+    "name": "Welcome To Amit_Code",
+    "occupation": "",
+    "description": "Web Developer and MERN Stack Developer.",
+    "image": "1.jpg",
+    "bio": "Hi there! I am  Amit Gupta a passionate programmer  born in India. I have Done my Course in Full Stack Web Development with HTML CSS JS  React.js Express.js Node.js and MongoDB as my tech stack. In 2021, I have successfully completed my Engineering with specialization in Electronics I love to learn new technologies,and work on my skillset.I have done Various Project ,as you can see in my resume and the most interesting project I have done are Youtube Clone, Zoom app and Netflix Clone. ",
+    "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
+    "email": "gamit9022@gmail.com",
+    "phone": "9022754949 ",
+    "address": {
+      "street": "Near Jain Mandir, Ashok Nagar",
+      "city": "Bhiwandi",
+      "state": "Maharashtra",
+      "zip": "421302"
+    },
+    "website": "https://amitportfolio1.netlify.app/",
+    "resumedownload": "https://drive.google.com/file/d/1zIE5-h5AcvfuK_dGwYYe90srusaMHRQt/view?usp=sharing",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/amit9022/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "Stack Overflow",
+        "url": "https://stackoverflow.com/users/15794982/amit-ashok-gupta",
+        "className": "fa fa-stack-overflow"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/gamit9022",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/amit-gupta-bb6b40199/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/iam_amit16_/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/UCI9vUtA81go3WUZmiR4X8eg/featured",
+        "className": "fa fa-youtube"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Amit8830",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Whatever you do, do it well.",
+    "education": [
+      {
+        "school": "University Of Mumbai",
+        "degree": "BE , Electronic Engineering",
+        "graduated": "",
+        "description": "Graduated with First Class"
+      },
+      {
+        "school": "Maharastra State Board Of Technical Education",
+        "degree": "Diploma, Electronic and Communication Engineering",
+        "graduated": "",
+        "description": "Graduated with First Class"
+      },
+      {
+        "school": "Maharashtra State Board",
+        "degree": "Holy Mary Convent High School",
+        "graduated": "",
+        "description": "Graduated with First Class"
+      }
+    ],
+    "work": [
+      {
+        "company": "Youtube Clone",
+        "title": "",
+        "years": "",
+        "description": "Transforming the lives of people by teaching them how to become successful developers no matter if they are a beginner or not!"
+      },
+      {
+        "company": "NazaWEb",
+        "title": "Founder / Developer",
+        "years": "Jan 2019 - Present",
+        "description": "Helping businesses showing their best selves to clients."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "60%"
+      },
+      {
+        "name": "Html5",
+        "level": "70%"
+      },
+      {
+        "name": "Css",
+        "level": "70%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "60%"
+      },
+      {
+        "name": "Github",
+        "level": "80%"
+      },
+      {
+        "name": "Bootstrap",
+        "level": "70%"
+      },
+      {
+        "name": "NodeJS",
+        "level": "30%"
+      },
+      {
+        "name": "Python",
+        "level": "30%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "40%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Youtube Clone",
+        "category": "Youtube Clone Using ReactJs",
+        "image": "yt.png",
+        "url": "https://www.youtube.com/watch?v=ZVznzY7EjuY"
+      },
+      {
+        "title": "Zoom Clone",
+        "category": "Zoom Clone Using React,Node, Express",
+        "image": "zoom.png",
+        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+      },
+      {
+        "title": "Blog Website",
+        "category": "Blog Website using ReactJS",
+        "image": "responsive.png",
+        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+      },
+      {
+        "title": "Quiz App",
+        "category": "Quiz App Using React Js",
+        "image": "quiz.png",
+        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+      },
+      {
+        "title": "Google Keep Clone",
+        "category": "Goog Keep using React Js",
+        "image": "googlekeep.png",
+        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+      },
+      {
+        "title": "MI Store",
+        "category": "Mi Store Clone using React Js",
+        "image": "mi.png",
+        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+      },
+      {
+        "title": "Calculator",
+        "category": "Calci using React Js",
+        "image": "calci.png",
+        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+      },
+      {
+        "title": "Cake Shop",
+        "category": "Cake Shop using React Js",
+        "image": "cake.png",
+        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "“Websites promote you 24/7: No employee will do that.” ...",
+        "user": "Amit Quotes"
+      },
+      {
+        "text": "“We don't just build websites, we build websites that SELLS”",
+        "user": "Amit Quotes"
+      }
+    ]
+  }
+}

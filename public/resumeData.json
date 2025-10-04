@@ -1,10 +1,10 @@
 {
   "main": {
-    "name": "Welcome To Amit_Code",
+    "name": "Welcome To Code with Amit",
     "occupation": "",
-    "description": "Web Developer and MERN Stack Developer.",
+    "description": "Web Developer and App Developer",
     "image": "1.jpg",
-    "bio": "Hi there! I am  Amit Gupta a passionate programmer  born in India. I have Done my Course in Full Stack Web Development with HTML CSS JS  React.js Express.js Node.js and MongoDB as my tech stack. In 2021, I have successfully completed my Engineering with specialization in Electronics I love to learn new technologies,and work on my skillset.I have done Various Project ,as you can see in my resume and the most interesting project I have done are Youtube Clone, Zoom app and Netflix Clone. ",
+    "bio": "Hi there! I’m Amit Gupta, a passionate programmer from India.\nI graduated from DY Patil College in 2021 with a degree in Electronics Engineering.\nMy enthusiasm for technology led me to transition into Software Engineering, where I create impactful products.\nWith 3.5 years of experience in React JS and React Native, I’ve built strong expertise across various tools and libraries.\nI’ve contributed to projects with Brained Company (ICICI Bank Projects – ICICI Careers, UOTM, iCare) and Boppo Technologies (Boppo Stream, BMDB, Bumping).\nI’m eager to keep learning, improving, and contributing to innovative teams that make a positive impact.",
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
     "email": "gamit9022@gmail.com",
     "phone": "9022754949 ",
@@ -15,7 +15,7 @@
       "zip": "421302"
     },
     "website": "https://amitportfolio1.netlify.app/",
-    "resumedownload": "https://drive.google.com/file/d/1zIE5-h5AcvfuK_dGwYYe90srusaMHRQt/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/145wOnETyKeK2J38F2M_EfXvpley3wVoW/view?usp=drivesdk",
     "social": [
       {
         "name": "facebook",
@@ -93,39 +93,35 @@
     "skills": [
       {
         "name": "ReactJs",
-        "level": "60%"
+        "level": "85%"
       },
       {
-        "name": "Html5",
-        "level": "70%"
-      },
-      {
-        "name": "Css",
-        "level": "70%"
+        "name": "React Native",
+        "level": "85%"
       },
       {
         "name": "JavaScript",
-        "level": "60%"
+        "level": "85%"
+      },
+      {
+        "name": "Redux",
+        "level": "85%"
+      },
+      {
+        "name": "TypeScript",
+        "level": "90%"
+      },
+      {
+        "name": "Jira Tool",
+        "level": "100%"
       },
       {
         "name": "Github",
-        "level": "80%"
+        "level": "90%"
       },
       {
-        "name": "Bootstrap",
-        "level": "70%"
-      },
-      {
-        "name": "NodeJS",
-        "level": "30%"
-      },
-      {
-        "name": "Python",
-        "level": "30%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "40%"
+        "name": "Tailwind",
+        "level": "85%"
       }
     ]
   },

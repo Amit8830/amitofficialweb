@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 const Contact = ({ data }) => {
   const [url, setUrl] = useState(
-    "mailto:test@example.com?subject=subject&body=body"
+    'mailto:test@example.com?subject=subject&body=body'
   );
-  const [name, setName] = useState("");
-  const [subject, setSubject] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [name, setName] = useState('');
+  const [subject, setSubject] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
   console.log(data);
 
@@ -91,12 +91,16 @@ const Contact = ({ data }) => {
                 ></textarea>
               </div>
 
-       
               <div>
-              <a href="mailto:gamit90222gmail.com" target="blank">
-                <button type="submit" title="gamit9022@gmail.com" onClick={handleClick} className="submit">
-                  Submit
-                </button>
+                <a href="mailto:gamit90222gmail.com" target="blank">
+                  <button
+                    type="submit"
+                    title="gamit9022@gmail.com"
+                    onClick={handleClick}
+                    className="submit"
+                  >
+                    Submit
+                  </button>
                 </a>
                 <span id="image-loader">
                   <img alt="" src="images/loader.gif" />
@@ -121,7 +125,7 @@ const Contact = ({ data }) => {
               {data?.address.street} <br />
               {data?.address.city}, {data?.address.state} {data?.address.zip}
               <br />
-              <a
+              {/* <a
                     class="PDvGL q8cvFf"
                     href="tel:+91-90227-54949"
                     data-tracking-element-type="3"
@@ -131,7 +135,7 @@ const Contact = ({ data }) => {
                   >
                     Call now
                   {" "}
-                  <span>{data?.phone} </span></a>
+                  <span>{data?.phone} </span></a> */}
               {/* <span>{data?.phone}</span> */}
             </p>
           </div>

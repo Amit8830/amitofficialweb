@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class About extends Component {
   render() {
     if (this.props.data) {
       // var name = this.props.data.name;
-      var profilepic = "images/" + this.props.data.image;
+      var profilepic = 'images/' + this.props.data.image;
       var bio = this.props.data.bio;
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
@@ -24,7 +24,8 @@ class About extends Component {
           <div className="nine columns main-col">
             <h2>About Me</h2>
 
-            <p>{bio}</p>
+            <p style={{ whiteSpace: 'pre-line' }}>{bio}</p>
+
             <div className="row">
               <div className="columns contact-details">
                 <h2>Contact Details</h2>
@@ -39,7 +40,7 @@ class About extends Component {
                     {city} {state}, {zip}
                   </span>
                   <br />
-                  <a
+                  {/* <a
                     class="PDvGL q8cvFf"
                     href="tel:+91-90227-54949"
                     data-tracking-element-type="3"
@@ -49,7 +50,7 @@ class About extends Component {
                   >
                     Call now
                   {" "}
-                  <span>{phone} </span></a> <br />
+                  <span>{phone} </span></a> <br /> */}
                   <span>{email}</span>
                 </p>
               </div>

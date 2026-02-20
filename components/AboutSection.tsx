@@ -25,13 +25,10 @@ export default function AboutSection() {
             visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
-          {/* Image side */}
           <div className="relative flex justify-center lg:justify-start order-2 lg:order-1">
-            {/* Decorative circles */}
             <div className="absolute -top-4 -left-4 w-40 h-40 rounded-full border border-cyan-400/20 animate-spin-slow" />
             <div className="absolute -bottom-4 -right-4 w-28 h-28 rounded-full border border-purple-500/20" style={{ animation: 'spin 15s linear infinite reverse' }} />
 
-            {/* Profile image */}
             <div className="relative w-full max-w-sm lg:max-w-md">
               <div className="relative w-full aspect-[4/5] rounded-2xl overflow-hidden border-2 border-slate-700/50">
                 <img
@@ -66,7 +63,6 @@ export default function AboutSection() {
               </p>
             </div>
 
-            {/* Stats */}
             <div className="grid grid-cols-3 gap-3 mb-8">
               {[
                 { value: '3.5+', label: 'Years Exp.' },
@@ -83,7 +79,6 @@ export default function AboutSection() {
               ))}
             </div>
 
-            {/* Buttons */}
             <div className="flex flex-wrap gap-3">
               <button
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}

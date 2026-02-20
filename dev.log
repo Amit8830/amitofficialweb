@@ -1,0 +1,24 @@
+
+> amit-portfolio@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3001
+
+ ✓ Starting...
+ ✓ Ready in 1708ms
+ ○ Compiling / ...
+ ✓ Compiled / in 3.5s (482 modules)
+ GET / 200 in 4307ms
+ ✓ Compiled in 853ms (248 modules)
+ ⨯ ./components/ContactSection.tsx
+Error: Failed to read source code from D:\Amit\amitthreejs\amit-portfolio\components\ContactSection.tsx
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/ContactSection.tsx
+./app/page.tsx
+ ✓ Compiled in 503ms (482 modules)
+^C^C

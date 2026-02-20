@@ -44,7 +44,6 @@ export default function AboutSection() {
             </div>
           </div>
 
-          {/* Text side */}
           <div className="order-1 lg:order-2">
             <SectionHeader
               title="About"

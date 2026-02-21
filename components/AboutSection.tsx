@@ -92,7 +92,7 @@ export default function AboutSection() {
                 Get In Touch
               </button>
               <a
-                href="https://codewithamit.netlify.app"
+                href="https://amitportfolio1.netlify.app/#home"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 border-2 border-cyan-400 text-cyan-400 font-bold rounded-xl hover:bg-cyan-400/10 transition-all hover:scale-105"

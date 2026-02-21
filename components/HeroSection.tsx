@@ -137,8 +137,12 @@ export default function HeroSection() {
         <div className="flex items-center justify-center gap-3 mb-10">
           {[
             { label: 'GH', href: 'https://github.com/amit8830', title: 'GitHub' },
-            { label: 'LI', href: 'https://linkedin.com', title: 'LinkedIn' },
-            { label: '@', href: 'mailto:gamit9022@gmail.com', title: 'Email' },
+            { label: 'LI', href: 'https://www.linkedin.com/in/amit-gupta-bb6b40199/', title: 'LinkedIn' },
+            { label: '@', href: 'https://twitter.com/gamit9022', title: 'Twitter' },
+            { label: 'yt', href: 'https://www.youtube.com/channel/UCI9vUtA81go3WUZmiR4X8eg/featured', title: 'YouTube' },
+
+
+
           ].map(s => (
             <a
               key={s.label}
@@ -162,8 +166,9 @@ export default function HeroSection() {
             View Works
           </button>
           <a
-            href="/resume.pdf"
-            download
+            href="https://drive.google.com/file/d/16lkPnciSoN29QKYShxmygjYfp06aBBrb/view?usp=drivesdk"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-8 py-4 rounded-xl border-2 border-white text-white font-bold text-base hover:bg-white hover:text-black transition-all duration-200 hover:scale-105 w-full sm:w-auto text-center"
           >
             Download Resume

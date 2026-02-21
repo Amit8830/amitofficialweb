@@ -5,46 +5,69 @@ import SectionHeader from './SectionHeader'
 
 const education = [
   {
-    degree: 'BE, Electronic Engineering',
-    year: '2017 – 2021',
-    institution: 'University Of Mumbai — DY Patil College',
-    description: 'Graduated with First Class. Developed a strong foundation in engineering which later transitioned into a passion for software development.',
-    tags: ['First Class'],
+    degree: 'Bachelor of Engineering in Electronics Engineering',
+    year: '2021',
+    institution: 'Ramrao Adik Institute of Technology, Mumbai University',
+    description:
+      'Completed BE in Electronics Engineering with strong fundamentals that supported the transition into software engineering.',
+    tags: ['Mumbai University'],
   },
   {
-    degree: 'Diploma, Electronic & Communication Eng.',
-    year: '2014 – 2017',
-    institution: 'Maharastra State Board Of Technical Education',
-    description: 'Completed diploma with First Class distinction, building core knowledge in electronics and communication systems.',
-    tags: ['First Class'],
+    degree: 'Diploma in Electronics and Communication Engineering',
+    year: '2018',
+    institution: 'Dr. D Y Patil Polytechnic College, Mumbai University',
+    description:
+      'Completed diploma with focus on electronics and communication systems, building technical discipline and problem-solving ability.',
+    tags: ['Mumbai University'],
   },
 ]
 
 const experience = [
   {
-    role: 'React Developer',
-    year: '2021 – 2023',
-    company: 'Brained Company',
-    description: 'Worked on ICICI Bank Projects including ICICI Careers, UOTM, and iCare. Built complex React JS applications for enterprise-scale banking solutions.',
-    tags: ['React JS', 'Redux', 'TypeScript'],
+    role: 'Senior Frontend Developer',
+    year: 'Oct 2025 - Present',
+    company: 'Skima AI, Andheri, Mumbai',
+    description:
+      'Built CareerFit AI product experiences, redesigned CareerFit marketing website, developed dashboard modules with API integrations, delivered a React Native call recording app with AWS S3 uploads, and worked on an AI interview and proctoring platform with real-time video and anti-cheating features.',
+    tags: ['Next.js', 'React Native', 'WebRTC', 'AWS S3', 'Google Analytics'],
     yearColor: 'text-cyan-400',
   },
   {
-    role: 'React Native Developer',
-    year: '2023 – Present',
-    company: 'Boppo Technologies',
-    description: 'Building cross-platform mobile applications including Boppo Stream, BMDB, and Bumping. Delivering high-performance mobile experiences.',
-    tags: ['React Native', 'JavaScript', 'Mobile'],
+    role: 'Senior Executive React Native Developer',
+    year: 'Nov 2023 - Oct 2025',
+    company: 'Brained, Andheri, Mumbai',
+    description:
+      'Worked on enterprise platforms for ICICI programs including ICICI Careers, UOTM, and ICICI Alumni. Delivered features for application tracking, employee management, payroll records, leave workflows, interview panels, referrals, and community engagement.',
+    tags: ['React Native', 'Enterprise Apps', 'Stakeholder Management'],
     yearColor: 'text-purple-400',
+  },
+  {
+    role: 'Software Engineer',
+    year: 'Jan 2022 - Aug 2023',
+    company: 'Boppo Technologies Pvt Ltd, Ghansoli, Navi Mumbai',
+    description:
+      'Built and launched BollywoodMDB app, integrated Google and Facebook auth, contributed to Rangeplus e-commerce web and mobile experience, and developed frontend modules for Boppo Stream including search and payment-related flows.',
+    tags: ['React Native', 'React.js', 'Tailwind CSS', 'API Integration'],
+    yearColor: 'text-blue-400',
   },
 ]
 
+const certifications = [
+  'Front-End Web Development with React - The Hong Kong University of Science and Technology (Coursera, 2021)',
+  'Succeeding in Web Development: Full Stack and Front End Development - LinkedIn Learning (2021)',
+  'Front-End Web Development - GeeksforGeeks (2021)',
+]
+
 function TimelineCard({ title, sub, year, desc, tags, yearColor = 'text-cyan-400' }: {
-  title: string; sub: string; year: string; desc: string; tags: string[]; yearColor?: string
+  title: string
+  sub: string
+  year: string
+  desc: string
+  tags: string[]
+  yearColor?: string
 }) {
   return (
     <div className="relative pl-6">
-      {/* Timeline dot */}
       <div className="absolute left-0 top-6 w-3 h-3 rounded-full bg-cyan-400 -translate-x-[6px] timeline-dot" />
 
       <div className="bg-[#0d1117] border border-slate-700/40 rounded-xl p-5 card-glow cursor-default">
@@ -86,10 +109,9 @@ export default function ResumeSection() {
           ref={ref}
           className={`transition-all duration-700 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
         >
-          <SectionHeader title="My" highlight="Resume" comment="education_and_experience();" />
+          <SectionHeader title="My" highlight="Resume" comment="education_experience_and_certifications();" />
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
-            {/* Education */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 mb-12">
             <div>
               <div className="flex items-center gap-3 mb-8">
                 <div className="w-10 h-10 rounded-lg bg-cyan-400/10 border border-cyan-400/20 flex items-center justify-center">
@@ -101,22 +123,13 @@ export default function ResumeSection() {
                 <h3 className="text-white font-bold text-xl">Education</h3>
               </div>
               <div className="relative space-y-6">
-                {/* Timeline line */}
                 <div className="absolute left-0 top-0 bottom-0 w-px bg-slate-700/50" />
                 {education.map((e, i) => (
-                  <TimelineCard
-                    key={i}
-                    title={e.degree}
-                    sub={e.institution}
-                    year={e.year}
-                    desc={e.description}
-                    tags={e.tags}
-                  />
+                  <TimelineCard key={i} title={e.degree} sub={e.institution} year={e.year} desc={e.description} tags={e.tags} />
                 ))}
               </div>
             </div>
 
-            {/* Experience */}
             <div>
               <div className="flex items-center gap-3 mb-8">
                 <div className="w-10 h-10 rounded-lg bg-purple-500/10 border border-purple-500/20 flex items-center justify-center">
@@ -140,6 +153,17 @@ export default function ResumeSection() {
                   />
                 ))}
               </div>
+            </div>
+          </div>
+
+          <div className="bg-[#0d1117] border border-slate-700/40 rounded-xl p-6 card-glow">
+            <h3 className="text-white font-bold text-xl mb-4">Certifications</h3>
+            <div className="space-y-3">
+              {certifications.map((cert, idx) => (
+                <p key={idx} className="text-slate-300 text-sm leading-relaxed">
+                  {cert}
+                </p>
+              ))}
             </div>
           </div>
         </div>

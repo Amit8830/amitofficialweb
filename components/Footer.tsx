@@ -31,9 +31,7 @@ export default function Footer() {
           <p className="text-slate-600 text-sm font-mono">
             © 2026 Amit Gupta. Built with ❤ &amp; React + Next.js
           </p>
-          <p className="text-slate-600 text-sm font-mono">
-            Near Jain Mandir, Ashok Nagar, Bhiwandi, Maharashtra
-          </p>
+        
         </div>
       </div>
     </footer>

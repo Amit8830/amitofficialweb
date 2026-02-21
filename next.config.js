@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    unoptimized: true,
-  },
+  output: 'export',  // Add this line
+  distDir: '.next',  // Ensure this matches your publish directory
 }
 
 module.exports = nextConfig

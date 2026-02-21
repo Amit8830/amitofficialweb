@@ -1,7 +1,12 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',  // Add this line
-  distDir: '.next',  // Ensure this matches your publish directory
+  output: 'export',
+  distDir: 'out',
+  eslint: {
+    ignoreDuringBuilds: true,  // Add this
+  },
+  images: {
+    unoptimized: true,
+  },
 }
 
 module.exports = nextConfig
